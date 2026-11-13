@@ -1,0 +1,7 @@
+Metric,Count
+Initial observations,41718
+Final observations,40983
+Removed observations,735
+Missing PM2.5,0
+PM2.5 <= 0,727
+PM2.5 >= 500,8

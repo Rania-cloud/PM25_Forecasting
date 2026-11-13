@@ -1,0 +1,42 @@
+
+PM2.5 FORECASTING PROJECT
+MISSION 1: DATA EXPLORATION AND PREPROCESSING
+
+DATASET:
+Initial observations: 41718
+Final observations: 40983
+Number of variables: 18
+
+TARGET:
+PM2.5 (µg/m³)
+
+INVALID TARGET OBSERVATIONS:
+Missing: 0
+PM2.5 <= 0: 727
+PM2.5 >= 500: 8
+
+CLEANING:
+Removed observations: 735
+
+STATIONS:
+95
+
+DATE RANGE:
+2016-11-25 00:00:00 to 2026-04-06 00:00:00
+
+MISSING PREDICTORS:
+Missing values have been documented.
+They have not been globally imputed.
+Imputation must be fitted on training data only.
+
+TIME SERIES:
+Stationarity was investigated using the ADF test.
+ACF and PACF plots were generated when sufficient
+consecutive daily observations were available.
+
+IMPORTANT:
+Daily averages across stations are descriptive summaries.
+They must not be confused with station-specific forecasting.
+
+The final modeling station and temporal validation strategy
+must be established before model training.

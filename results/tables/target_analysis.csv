@@ -1,0 +1,6 @@
+Metric,Count,Percentage
+Total observations,41718,100.0
+Missing PM2.5,0,0.0
+PM2.5 <= 0,727,1.74
+PM2.5 >= 500,8,0.02
+Valid PM2.5 observations,40983,98.24

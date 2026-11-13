@@ -1,0 +1,7 @@
+Check,Result
+Final number of rows,40983
+Final number of columns,18
+Invalid PM2.5 <= 0,0
+Invalid PM2.5 >= 500,0
+Exact duplicate rows,0
+Missing predictor values,7262
